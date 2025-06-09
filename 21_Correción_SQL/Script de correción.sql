@@ -1,7 +1,7 @@
 USE sistema_ventas_4E;
 
 alter table usuarios
-change column correo email varchar(200) unique;
+change column correo email varchar(200);
 
 alter table tipo_usuarios
 add column descripcion_tipo varchar(200);
